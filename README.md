@@ -55,3 +55,5 @@ paru -S --needed - < packages/pacman-aur.txt
 - Spotify theme: install spicetify, then `spicetify backup apply`
 - tmux plugins: install TPM, then `prefix + I`
 - dms plugins: reinstall from the dms plugin browser
+
+<img src="assets/term.png" alt="Terminal">
