@@ -1,0 +1,4068 @@
+{
+    "base_color": 16777215,
+    "controllers": [
+        {
+            "active_mode": 0,
+            "colors": [
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711
+            ],
+            "description": "Corsair DRAM RGB Device",
+            "display_name": "",
+            "flags": 1,
+            "leds": [
+                {
+                    "name": "Corsair DRAM LED 0"
+                },
+                {
+                    "name": "Corsair DRAM LED 1"
+                },
+                {
+                    "name": "Corsair DRAM LED 2"
+                },
+                {
+                    "name": "Corsair DRAM LED 3"
+                },
+                {
+                    "name": "Corsair DRAM LED 4"
+                },
+                {
+                    "name": "Corsair DRAM LED 5"
+                },
+                {
+                    "name": "Corsair DRAM LED 6"
+                },
+                {
+                    "name": "Corsair DRAM LED 7"
+                },
+                {
+                    "name": "Corsair DRAM LED 8"
+                },
+                {
+                    "name": "Corsair DRAM LED 9"
+                },
+                {
+                    "name": "Corsair DRAM LED 10"
+                },
+                {
+                    "name": "Corsair DRAM LED 11"
+                }
+            ],
+            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-2), address 0x18",
+            "modes": [
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 32,
+                    "name": "Direct",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 544,
+                    "name": "Custom",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 0,
+                    "flags": 721,
+                    "name": "Color Shift",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 0,
+                    "flags": 721,
+                    "name": "Color Pulse",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 3,
+                    "flags": 519,
+                    "name": "Rainbow Wave",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 3,
+                    "flags": 727,
+                    "name": "Color Wave",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 5,
+                    "flags": 729,
+                    "name": "Visor",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 3,
+                    "flags": 725,
+                    "name": "Rain",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 0,
+                    "flags": 593,
+                    "name": "Marquee",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 513,
+                    "name": "Rainbow",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 3,
+                    "flags": 725,
+                    "name": "Sequential",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                }
+            ],
+            "name": "Corsair Dominator Titanium RGB DDR5",
+            "serial": "",
+            "type": 1,
+            "vendor": "Corsair",
+            "version": "1.1.4",
+            "zones": [
+                {
+                    "display_name": "",
+                    "flags": 0,
+                    "leds_count": 12,
+                    "leds_max": 12,
+                    "leds_min": 12,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Corsair DRAM",
+                    "type": 1
+                }
+            ]
+        },
+        {
+            "active_mode": 0,
+            "colors": [
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711
+            ],
+            "description": "Corsair DRAM RGB Device",
+            "display_name": "",
+            "flags": 1,
+            "leds": [
+                {
+                    "name": "Corsair DRAM LED 0"
+                },
+                {
+                    "name": "Corsair DRAM LED 1"
+                },
+                {
+                    "name": "Corsair DRAM LED 2"
+                },
+                {
+                    "name": "Corsair DRAM LED 3"
+                },
+                {
+                    "name": "Corsair DRAM LED 4"
+                },
+                {
+                    "name": "Corsair DRAM LED 5"
+                },
+                {
+                    "name": "Corsair DRAM LED 6"
+                },
+                {
+                    "name": "Corsair DRAM LED 7"
+                },
+                {
+                    "name": "Corsair DRAM LED 8"
+                },
+                {
+                    "name": "Corsair DRAM LED 9"
+                },
+                {
+                    "name": "Corsair DRAM LED 10"
+                },
+                {
+                    "name": "Corsair DRAM LED 11"
+                }
+            ],
+            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-2), address 0x19",
+            "modes": [
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 32,
+                    "name": "Direct",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 544,
+                    "name": "Custom",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 0,
+                    "flags": 721,
+                    "name": "Color Shift",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 0,
+                    "flags": 721,
+                    "name": "Color Pulse",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 3,
+                    "flags": 519,
+                    "name": "Rainbow Wave",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 3,
+                    "flags": 727,
+                    "name": "Color Wave",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 5,
+                    "flags": 729,
+                    "name": "Visor",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 3,
+                    "flags": 725,
+                    "name": "Rain",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 0,
+                    "flags": 593,
+                    "name": "Marquee",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 513,
+                    "name": "Rainbow",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 3,
+                    "flags": 725,
+                    "name": "Sequential",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                }
+            ],
+            "name": "Corsair Dominator Titanium RGB DDR5",
+            "serial": "",
+            "type": 1,
+            "vendor": "Corsair",
+            "version": "1.0.18",
+            "zones": [
+                {
+                    "display_name": "",
+                    "flags": 0,
+                    "leds_count": 12,
+                    "leds_max": 12,
+                    "leds_min": 12,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Corsair DRAM",
+                    "type": 1
+                }
+            ]
+        },
+        {
+            "active_mode": 0,
+            "colors": [
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711
+            ],
+            "description": "Corsair DRAM RGB Device",
+            "display_name": "",
+            "flags": 1,
+            "leds": [
+                {
+                    "name": "Corsair DRAM LED 0"
+                },
+                {
+                    "name": "Corsair DRAM LED 1"
+                },
+                {
+                    "name": "Corsair DRAM LED 2"
+                },
+                {
+                    "name": "Corsair DRAM LED 3"
+                },
+                {
+                    "name": "Corsair DRAM LED 4"
+                },
+                {
+                    "name": "Corsair DRAM LED 5"
+                },
+                {
+                    "name": "Corsair DRAM LED 6"
+                },
+                {
+                    "name": "Corsair DRAM LED 7"
+                },
+                {
+                    "name": "Corsair DRAM LED 8"
+                },
+                {
+                    "name": "Corsair DRAM LED 9"
+                },
+                {
+                    "name": "Corsair DRAM LED 10"
+                },
+                {
+                    "name": "Corsair DRAM LED 11"
+                }
+            ],
+            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-2), address 0x1A",
+            "modes": [
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 32,
+                    "name": "Direct",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 544,
+                    "name": "Custom",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 0,
+                    "flags": 721,
+                    "name": "Color Shift",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 0,
+                    "flags": 721,
+                    "name": "Color Pulse",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 3,
+                    "flags": 519,
+                    "name": "Rainbow Wave",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 3,
+                    "flags": 727,
+                    "name": "Color Wave",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 5,
+                    "flags": 729,
+                    "name": "Visor",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 3,
+                    "flags": 725,
+                    "name": "Rain",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 0,
+                    "flags": 593,
+                    "name": "Marquee",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 513,
+                    "name": "Rainbow",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 3,
+                    "flags": 725,
+                    "name": "Sequential",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                }
+            ],
+            "name": "Corsair Dominator Titanium RGB DDR5",
+            "serial": "",
+            "type": 1,
+            "vendor": "Corsair",
+            "version": "1.1.4",
+            "zones": [
+                {
+                    "display_name": "",
+                    "flags": 0,
+                    "leds_count": 12,
+                    "leds_max": 12,
+                    "leds_min": 12,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Corsair DRAM",
+                    "type": 1
+                }
+            ]
+        },
+        {
+            "active_mode": 0,
+            "colors": [
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711
+            ],
+            "description": "Corsair DRAM RGB Device",
+            "display_name": "",
+            "flags": 1,
+            "leds": [
+                {
+                    "name": "Corsair DRAM LED 0"
+                },
+                {
+                    "name": "Corsair DRAM LED 1"
+                },
+                {
+                    "name": "Corsair DRAM LED 2"
+                },
+                {
+                    "name": "Corsair DRAM LED 3"
+                },
+                {
+                    "name": "Corsair DRAM LED 4"
+                },
+                {
+                    "name": "Corsair DRAM LED 5"
+                },
+                {
+                    "name": "Corsair DRAM LED 6"
+                },
+                {
+                    "name": "Corsair DRAM LED 7"
+                },
+                {
+                    "name": "Corsair DRAM LED 8"
+                },
+                {
+                    "name": "Corsair DRAM LED 9"
+                },
+                {
+                    "name": "Corsair DRAM LED 10"
+                },
+                {
+                    "name": "Corsair DRAM LED 11"
+                }
+            ],
+            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-2), address 0x1B",
+            "modes": [
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 32,
+                    "name": "Direct",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 544,
+                    "name": "Custom",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 0,
+                    "flags": 721,
+                    "name": "Color Shift",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 0,
+                    "flags": 721,
+                    "name": "Color Pulse",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 3,
+                    "flags": 519,
+                    "name": "Rainbow Wave",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 3,
+                    "flags": 727,
+                    "name": "Color Wave",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 5,
+                    "flags": 729,
+                    "name": "Visor",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0,
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 2,
+                    "direction": 3,
+                    "flags": 725,
+                    "name": "Rain",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 0,
+                    "flags": 593,
+                    "name": "Marquee",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 513,
+                    "name": "Rainbow",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 3,
+                    "flags": 725,
+                    "name": "Sequential",
+                    "speed": 0,
+                    "speed_max": 2,
+                    "speed_min": 0
+                }
+            ],
+            "name": "Corsair Dominator Titanium RGB DDR5",
+            "serial": "",
+            "type": 1,
+            "vendor": "Corsair",
+            "version": "1.0.18",
+            "zones": [
+                {
+                    "display_name": "",
+                    "flags": 0,
+                    "leds_count": 12,
+                    "leds_max": 12,
+                    "leds_min": 12,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Corsair DRAM",
+                    "type": 1
+                }
+            ]
+        },
+        {
+            "active_mode": 0,
+            "colors": [
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                16729422,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                10682112,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711,
+                4243711
+            ],
+            "configuration": null,
+            "description": "Nollie Controller Device",
+            "display_name": "",
+            "flags": 1,
+            "leds": [
+                {
+                    "name": "Channel 1, LED 0"
+                },
+                {
+                    "name": "Channel 1, LED 1"
+                },
+                {
+                    "name": "Channel 1, LED 2"
+                },
+                {
+                    "name": "Channel 1, LED 3"
+                },
+                {
+                    "name": "Channel 1, LED 4"
+                },
+                {
+                    "name": "Channel 1, LED 5"
+                },
+                {
+                    "name": "Channel 1, LED 6"
+                },
+                {
+                    "name": "Channel 1, LED 7"
+                },
+                {
+                    "name": "Channel 1, LED 8"
+                },
+                {
+                    "name": "Channel 1, LED 9"
+                },
+                {
+                    "name": "Channel 1, LED 10"
+                },
+                {
+                    "name": "Channel 1, LED 11"
+                },
+                {
+                    "name": "Channel 1, LED 12"
+                },
+                {
+                    "name": "Channel 1, LED 13"
+                },
+                {
+                    "name": "Channel 1, LED 14"
+                },
+                {
+                    "name": "Channel 1, LED 15"
+                },
+                {
+                    "name": "Channel 1, LED 16"
+                },
+                {
+                    "name": "Channel 1, LED 17"
+                },
+                {
+                    "name": "Channel 1, LED 18"
+                },
+                {
+                    "name": "Channel 1, LED 19"
+                },
+                {
+                    "name": "Channel 1, LED 20"
+                },
+                {
+                    "name": "Channel 1, LED 21"
+                },
+                {
+                    "name": "Channel 1, LED 22"
+                },
+                {
+                    "name": "Channel 1, LED 23"
+                },
+                {
+                    "name": "Channel 1, LED 24"
+                },
+                {
+                    "name": "Channel 1, LED 25"
+                },
+                {
+                    "name": "Channel 1, LED 26"
+                },
+                {
+                    "name": "Channel 1, LED 27"
+                },
+                {
+                    "name": "Channel 1, LED 28"
+                },
+                {
+                    "name": "Channel 1, LED 29"
+                },
+                {
+                    "name": "Channel 2, LED 0"
+                },
+                {
+                    "name": "Channel 2, LED 1"
+                },
+                {
+                    "name": "Channel 2, LED 2"
+                },
+                {
+                    "name": "Channel 2, LED 3"
+                },
+                {
+                    "name": "Channel 2, LED 4"
+                },
+                {
+                    "name": "Channel 2, LED 5"
+                },
+                {
+                    "name": "Channel 2, LED 6"
+                },
+                {
+                    "name": "Channel 2, LED 7"
+                },
+                {
+                    "name": "Channel 2, LED 8"
+                },
+                {
+                    "name": "Channel 2, LED 9"
+                },
+                {
+                    "name": "Channel 2, LED 10"
+                },
+                {
+                    "name": "Channel 2, LED 11"
+                },
+                {
+                    "name": "Channel 2, LED 12"
+                },
+                {
+                    "name": "Channel 2, LED 13"
+                },
+                {
+                    "name": "Channel 2, LED 14"
+                },
+                {
+                    "name": "Channel 2, LED 15"
+                },
+                {
+                    "name": "Channel 2, LED 16"
+                },
+                {
+                    "name": "Channel 2, LED 17"
+                },
+                {
+                    "name": "Channel 2, LED 18"
+                },
+                {
+                    "name": "Channel 2, LED 19"
+                },
+                {
+                    "name": "Channel 2, LED 20"
+                },
+                {
+                    "name": "Channel 2, LED 21"
+                },
+                {
+                    "name": "Channel 2, LED 22"
+                },
+                {
+                    "name": "Channel 2, LED 23"
+                },
+                {
+                    "name": "Channel 2, LED 24"
+                },
+                {
+                    "name": "Channel 2, LED 25"
+                },
+                {
+                    "name": "Channel 2, LED 26"
+                },
+                {
+                    "name": "Channel 2, LED 27"
+                },
+                {
+                    "name": "Channel 2, LED 28"
+                },
+                {
+                    "name": "Channel 2, LED 29"
+                },
+                {
+                    "name": "Channel 12, LED 0"
+                },
+                {
+                    "name": "Channel 12, LED 1"
+                },
+                {
+                    "name": "Channel 12, LED 2"
+                },
+                {
+                    "name": "Channel 12, LED 3"
+                },
+                {
+                    "name": "Channel 12, LED 4"
+                },
+                {
+                    "name": "Channel 12, LED 5"
+                },
+                {
+                    "name": "Channel 12, LED 6"
+                },
+                {
+                    "name": "Channel 12, LED 7"
+                },
+                {
+                    "name": "Channel 12, LED 8"
+                },
+                {
+                    "name": "Channel 12, LED 9"
+                },
+                {
+                    "name": "Channel 12, LED 10"
+                },
+                {
+                    "name": "Channel 12, LED 11"
+                },
+                {
+                    "name": "Channel 12, LED 12"
+                },
+                {
+                    "name": "Channel 12, LED 13"
+                },
+                {
+                    "name": "Channel 12, LED 14"
+                },
+                {
+                    "name": "Channel 12, LED 15"
+                },
+                {
+                    "name": "Channel 12, LED 16"
+                },
+                {
+                    "name": "Channel 12, LED 17"
+                },
+                {
+                    "name": "Channel 12, LED 18"
+                },
+                {
+                    "name": "Channel 12, LED 19"
+                },
+                {
+                    "name": "Channel 12, LED 20"
+                },
+                {
+                    "name": "Channel 12, LED 21"
+                },
+                {
+                    "name": "Channel 12, LED 22"
+                },
+                {
+                    "name": "Channel 12, LED 23"
+                },
+                {
+                    "name": "Channel 12, LED 24"
+                },
+                {
+                    "name": "Channel 12, LED 25"
+                },
+                {
+                    "name": "Channel 12, LED 26"
+                },
+                {
+                    "name": "Channel 12, LED 27"
+                },
+                {
+                    "name": "Channel 12, LED 28"
+                },
+                {
+                    "name": "Channel 12, LED 29"
+                },
+                {
+                    "name": "Channel 12, LED 30"
+                },
+                {
+                    "name": "Channel 12, LED 31"
+                },
+                {
+                    "name": "Channel 12, LED 32"
+                },
+                {
+                    "name": "Channel 12, LED 33"
+                },
+                {
+                    "name": "Channel 12, LED 34"
+                },
+                {
+                    "name": "Channel 12, LED 35"
+                },
+                {
+                    "name": "Channel 12, LED 36"
+                },
+                {
+                    "name": "Channel 12, LED 37"
+                },
+                {
+                    "name": "Channel 12, LED 38"
+                },
+                {
+                    "name": "Channel 12, LED 39"
+                },
+                {
+                    "name": "Channel 12, LED 40"
+                },
+                {
+                    "name": "Channel 12, LED 41"
+                },
+                {
+                    "name": "Channel 12, LED 42"
+                },
+                {
+                    "name": "Channel 12, LED 43"
+                },
+                {
+                    "name": "Channel 12, LED 44"
+                },
+                {
+                    "name": "Channel 12, LED 45"
+                },
+                {
+                    "name": "Channel 12, LED 46"
+                },
+                {
+                    "name": "Channel 12, LED 47"
+                },
+                {
+                    "name": "Channel 12, LED 48"
+                },
+                {
+                    "name": "Channel 12, LED 49"
+                },
+                {
+                    "name": "Channel 12, LED 50"
+                },
+                {
+                    "name": "Channel 12, LED 51"
+                },
+                {
+                    "name": "Channel 12, LED 52"
+                },
+                {
+                    "name": "Channel 12, LED 53"
+                },
+                {
+                    "name": "Channel 12, LED 54"
+                },
+                {
+                    "name": "Channel 12, LED 55"
+                },
+                {
+                    "name": "Channel 12, LED 56"
+                },
+                {
+                    "name": "Channel 12, LED 57"
+                },
+                {
+                    "name": "Channel 12, LED 58"
+                },
+                {
+                    "name": "Channel 12, LED 59"
+                },
+                {
+                    "name": "Channel 14, LED 0"
+                },
+                {
+                    "name": "Channel 14, LED 1"
+                },
+                {
+                    "name": "Channel 14, LED 2"
+                },
+                {
+                    "name": "Channel 14, LED 3"
+                },
+                {
+                    "name": "Channel 14, LED 4"
+                },
+                {
+                    "name": "Channel 14, LED 5"
+                },
+                {
+                    "name": "Channel 14, LED 6"
+                },
+                {
+                    "name": "Channel 14, LED 7"
+                },
+                {
+                    "name": "Channel 14, LED 8"
+                },
+                {
+                    "name": "Channel 14, LED 9"
+                },
+                {
+                    "name": "Channel 14, LED 10"
+                },
+                {
+                    "name": "Channel 14, LED 11"
+                },
+                {
+                    "name": "Channel 14, LED 12"
+                },
+                {
+                    "name": "Channel 14, LED 13"
+                },
+                {
+                    "name": "Channel 14, LED 14"
+                },
+                {
+                    "name": "Channel 14, LED 15"
+                },
+                {
+                    "name": "Channel 14, LED 16"
+                },
+                {
+                    "name": "Channel 14, LED 17"
+                },
+                {
+                    "name": "Channel 14, LED 18"
+                },
+                {
+                    "name": "Channel 14, LED 19"
+                },
+                {
+                    "name": "Channel 14, LED 20"
+                },
+                {
+                    "name": "Channel 14, LED 21"
+                },
+                {
+                    "name": "Channel 14, LED 22"
+                },
+                {
+                    "name": "Channel 14, LED 23"
+                },
+                {
+                    "name": "Channel 14, LED 24"
+                },
+                {
+                    "name": "Channel 14, LED 25"
+                },
+                {
+                    "name": "Channel 14, LED 26"
+                },
+                {
+                    "name": "Channel 14, LED 27"
+                },
+                {
+                    "name": "Channel 14, LED 28"
+                },
+                {
+                    "name": "Channel 14, LED 29"
+                },
+                {
+                    "name": "Channel 14, LED 30"
+                },
+                {
+                    "name": "Channel 14, LED 31"
+                },
+                {
+                    "name": "Channel 14, LED 32"
+                },
+                {
+                    "name": "Channel 14, LED 33"
+                },
+                {
+                    "name": "Channel 14, LED 34"
+                },
+                {
+                    "name": "Channel 14, LED 35"
+                },
+                {
+                    "name": "Channel 14, LED 36"
+                },
+                {
+                    "name": "Channel 14, LED 37"
+                },
+                {
+                    "name": "Channel 14, LED 38"
+                },
+                {
+                    "name": "Channel 14, LED 39"
+                },
+                {
+                    "name": "Channel ATX 1, LED 0"
+                },
+                {
+                    "name": "Channel ATX 1, LED 1"
+                },
+                {
+                    "name": "Channel ATX 1, LED 2"
+                },
+                {
+                    "name": "Channel ATX 1, LED 3"
+                },
+                {
+                    "name": "Channel ATX 1, LED 4"
+                },
+                {
+                    "name": "Channel ATX 1, LED 5"
+                },
+                {
+                    "name": "Channel ATX 1, LED 6"
+                },
+                {
+                    "name": "Channel ATX 1, LED 7"
+                },
+                {
+                    "name": "Channel ATX 1, LED 8"
+                },
+                {
+                    "name": "Channel ATX 1, LED 9"
+                },
+                {
+                    "name": "Channel ATX 1, LED 10"
+                },
+                {
+                    "name": "Channel ATX 1, LED 11"
+                },
+                {
+                    "name": "Channel ATX 1, LED 12"
+                },
+                {
+                    "name": "Channel ATX 1, LED 13"
+                },
+                {
+                    "name": "Channel ATX 1, LED 14"
+                },
+                {
+                    "name": "Channel ATX 1, LED 15"
+                },
+                {
+                    "name": "Channel ATX 1, LED 16"
+                },
+                {
+                    "name": "Channel ATX 1, LED 17"
+                },
+                {
+                    "name": "Channel ATX 1, LED 18"
+                },
+                {
+                    "name": "Channel ATX 1, LED 19"
+                },
+                {
+                    "name": "Channel ATX 2, LED 0"
+                },
+                {
+                    "name": "Channel ATX 2, LED 1"
+                },
+                {
+                    "name": "Channel ATX 2, LED 2"
+                },
+                {
+                    "name": "Channel ATX 2, LED 3"
+                },
+                {
+                    "name": "Channel ATX 2, LED 4"
+                },
+                {
+                    "name": "Channel ATX 2, LED 5"
+                },
+                {
+                    "name": "Channel ATX 2, LED 6"
+                },
+                {
+                    "name": "Channel ATX 2, LED 7"
+                },
+                {
+                    "name": "Channel ATX 2, LED 8"
+                },
+                {
+                    "name": "Channel ATX 2, LED 9"
+                },
+                {
+                    "name": "Channel ATX 2, LED 10"
+                },
+                {
+                    "name": "Channel ATX 2, LED 11"
+                },
+                {
+                    "name": "Channel ATX 2, LED 12"
+                },
+                {
+                    "name": "Channel ATX 2, LED 13"
+                },
+                {
+                    "name": "Channel ATX 2, LED 14"
+                },
+                {
+                    "name": "Channel ATX 2, LED 15"
+                },
+                {
+                    "name": "Channel ATX 2, LED 16"
+                },
+                {
+                    "name": "Channel ATX 2, LED 17"
+                },
+                {
+                    "name": "Channel ATX 2, LED 18"
+                },
+                {
+                    "name": "Channel ATX 2, LED 19"
+                },
+                {
+                    "name": "Channel ATX 3, LED 0"
+                },
+                {
+                    "name": "Channel ATX 3, LED 1"
+                },
+                {
+                    "name": "Channel ATX 3, LED 2"
+                },
+                {
+                    "name": "Channel ATX 3, LED 3"
+                },
+                {
+                    "name": "Channel ATX 3, LED 4"
+                },
+                {
+                    "name": "Channel ATX 3, LED 5"
+                },
+                {
+                    "name": "Channel ATX 3, LED 6"
+                },
+                {
+                    "name": "Channel ATX 3, LED 7"
+                },
+                {
+                    "name": "Channel ATX 3, LED 8"
+                },
+                {
+                    "name": "Channel ATX 3, LED 9"
+                },
+                {
+                    "name": "Channel ATX 3, LED 10"
+                },
+                {
+                    "name": "Channel ATX 3, LED 11"
+                },
+                {
+                    "name": "Channel ATX 3, LED 12"
+                },
+                {
+                    "name": "Channel ATX 3, LED 13"
+                },
+                {
+                    "name": "Channel ATX 3, LED 14"
+                },
+                {
+                    "name": "Channel ATX 3, LED 15"
+                },
+                {
+                    "name": "Channel ATX 3, LED 16"
+                },
+                {
+                    "name": "Channel ATX 3, LED 17"
+                },
+                {
+                    "name": "Channel ATX 3, LED 18"
+                },
+                {
+                    "name": "Channel ATX 3, LED 19"
+                },
+                {
+                    "name": "Channel ATX 4, LED 0"
+                },
+                {
+                    "name": "Channel ATX 4, LED 1"
+                },
+                {
+                    "name": "Channel ATX 4, LED 2"
+                },
+                {
+                    "name": "Channel ATX 4, LED 3"
+                },
+                {
+                    "name": "Channel ATX 4, LED 4"
+                },
+                {
+                    "name": "Channel ATX 4, LED 5"
+                },
+                {
+                    "name": "Channel ATX 4, LED 6"
+                },
+                {
+                    "name": "Channel ATX 4, LED 7"
+                },
+                {
+                    "name": "Channel ATX 4, LED 8"
+                },
+                {
+                    "name": "Channel ATX 4, LED 9"
+                },
+                {
+                    "name": "Channel ATX 4, LED 10"
+                },
+                {
+                    "name": "Channel ATX 4, LED 11"
+                },
+                {
+                    "name": "Channel ATX 4, LED 12"
+                },
+                {
+                    "name": "Channel ATX 4, LED 13"
+                },
+                {
+                    "name": "Channel ATX 4, LED 14"
+                },
+                {
+                    "name": "Channel ATX 4, LED 15"
+                },
+                {
+                    "name": "Channel ATX 4, LED 16"
+                },
+                {
+                    "name": "Channel ATX 4, LED 17"
+                },
+                {
+                    "name": "Channel ATX 4, LED 18"
+                },
+                {
+                    "name": "Channel ATX 4, LED 19"
+                },
+                {
+                    "name": "Channel ATX 5, LED 0"
+                },
+                {
+                    "name": "Channel ATX 5, LED 1"
+                },
+                {
+                    "name": "Channel ATX 5, LED 2"
+                },
+                {
+                    "name": "Channel ATX 5, LED 3"
+                },
+                {
+                    "name": "Channel ATX 5, LED 4"
+                },
+                {
+                    "name": "Channel ATX 5, LED 5"
+                },
+                {
+                    "name": "Channel ATX 5, LED 6"
+                },
+                {
+                    "name": "Channel ATX 5, LED 7"
+                },
+                {
+                    "name": "Channel ATX 5, LED 8"
+                },
+                {
+                    "name": "Channel ATX 5, LED 9"
+                },
+                {
+                    "name": "Channel ATX 5, LED 10"
+                },
+                {
+                    "name": "Channel ATX 5, LED 11"
+                },
+                {
+                    "name": "Channel ATX 5, LED 12"
+                },
+                {
+                    "name": "Channel ATX 5, LED 13"
+                },
+                {
+                    "name": "Channel ATX 5, LED 14"
+                },
+                {
+                    "name": "Channel ATX 5, LED 15"
+                },
+                {
+                    "name": "Channel ATX 5, LED 16"
+                },
+                {
+                    "name": "Channel ATX 5, LED 17"
+                },
+                {
+                    "name": "Channel ATX 5, LED 18"
+                },
+                {
+                    "name": "Channel ATX 5, LED 19"
+                },
+                {
+                    "name": "Channel ATX 6, LED 0"
+                },
+                {
+                    "name": "Channel ATX 6, LED 1"
+                },
+                {
+                    "name": "Channel ATX 6, LED 2"
+                },
+                {
+                    "name": "Channel ATX 6, LED 3"
+                },
+                {
+                    "name": "Channel ATX 6, LED 4"
+                },
+                {
+                    "name": "Channel ATX 6, LED 5"
+                },
+                {
+                    "name": "Channel ATX 6, LED 6"
+                },
+                {
+                    "name": "Channel ATX 6, LED 7"
+                },
+                {
+                    "name": "Channel ATX 6, LED 8"
+                },
+                {
+                    "name": "Channel ATX 6, LED 9"
+                },
+                {
+                    "name": "Channel ATX 6, LED 10"
+                },
+                {
+                    "name": "Channel ATX 6, LED 11"
+                },
+                {
+                    "name": "Channel ATX 6, LED 12"
+                },
+                {
+                    "name": "Channel ATX 6, LED 13"
+                },
+                {
+                    "name": "Channel ATX 6, LED 14"
+                },
+                {
+                    "name": "Channel ATX 6, LED 15"
+                },
+                {
+                    "name": "Channel ATX 6, LED 16"
+                },
+                {
+                    "name": "Channel ATX 6, LED 17"
+                },
+                {
+                    "name": "Channel ATX 6, LED 18"
+                },
+                {
+                    "name": "Channel ATX 6, LED 19"
+                }
+            ],
+            "location": "HID: /dev/hidraw8",
+            "modes": [
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 32,
+                    "name": "Direct",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                }
+            ],
+            "name": "Nollie 32CH",
+            "serial": "152A638819709122",
+            "type": 4,
+            "vendor": "Nollie",
+            "version": "",
+            "zones": [
+                {
+                    "display_name": "GPU",
+                    "flags": 12350,
+                    "leds_count": 30,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 1",
+                    "type": 1
+                },
+                {
+                    "display_name": "PUMP",
+                    "flags": 12350,
+                    "leds_count": 30,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 2",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 3",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 4",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 5",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 6",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 7",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 8",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 9",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 10",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 11",
+                    "type": 1
+                },
+                {
+                    "display_name": "TOP_FAN",
+                    "flags": 12350,
+                    "leds_count": 60,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 12",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 13",
+                    "type": 1
+                },
+                {
+                    "display_name": "BOT_FAN",
+                    "flags": 12350,
+                    "leds_count": 40,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 14",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 15",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel 16",
+                    "type": 1
+                },
+                {
+                    "display_name": "STRIM_1-2",
+                    "flags": 12350,
+                    "leds_count": 20,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel ATX 1",
+                    "type": 1
+                },
+                {
+                    "display_name": "STRIM_3-4",
+                    "flags": 12350,
+                    "leds_count": 20,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel ATX 2",
+                    "type": 1
+                },
+                {
+                    "display_name": "STRIM_5-6",
+                    "flags": 12350,
+                    "leds_count": 20,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel ATX 3",
+                    "type": 1
+                },
+                {
+                    "display_name": "STRIM_7-8",
+                    "flags": 12350,
+                    "leds_count": 20,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel ATX 4",
+                    "type": 1
+                },
+                {
+                    "display_name": "STRIM_9-10",
+                    "flags": 12350,
+                    "leds_count": 20,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel ATX 5",
+                    "type": 1
+                },
+                {
+                    "display_name": "STRIM_11-12",
+                    "flags": 12350,
+                    "leds_count": 20,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel ATX 6",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel GPU 1",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel GPU 2",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel GPU 3",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel GPU 4",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel GPU 5",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel GPU 6",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel EXT 1",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel EXT 2",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel EXT 3",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 62,
+                    "leds_count": 0,
+                    "leds_max": 256,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Channel EXT 4",
+                    "type": 1
+                }
+            ]
+        },
+        {
+            "active_mode": 0,
+            "colors": [
+                65280,
+                65280,
+                65280
+            ],
+            "configuration": null,
+            "description": "Razer Device, Black",
+            "display_name": "",
+            "flags": 1,
+            "leds": [
+                {
+                    "name": "Scroll Wheel"
+                },
+                {
+                    "name": "Logo"
+                },
+                {
+                    "name": "Numpad"
+                }
+            ],
+            "location": "HID: /dev/hidraw1",
+            "modes": [
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 48,
+                    "name": "Direct",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 0,
+                    "name": "Off",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 1,
+                    "colors_min": 1,
+                    "direction": 0,
+                    "flags": 80,
+                    "name": "Static",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 2,
+                    "colors": [
+                        0
+                    ],
+                    "colors_max": 2,
+                    "colors_min": 1,
+                    "direction": 0,
+                    "flags": 208,
+                    "name": "Breathing",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 255,
+                    "brightness_max": 255,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 16,
+                    "name": "Spectrum Cycle",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                }
+            ],
+            "name": "Razer Naga Trinity",
+            "serial": "PM1750H07713558       ",
+            "type": 6,
+            "vendor": "Razer",
+            "version": "v1.2",
+            "zones": [
+                {
+                    "display_name": "",
+                    "flags": 4096,
+                    "leds_count": 1,
+                    "leds_max": 1,
+                    "leds_min": 1,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Scroll Wheel",
+                    "type": 0
+                },
+                {
+                    "display_name": "",
+                    "flags": 4096,
+                    "leds_count": 1,
+                    "leds_max": 1,
+                    "leds_min": 1,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Logo",
+                    "type": 0
+                },
+                {
+                    "display_name": "",
+                    "flags": 4096,
+                    "leds_count": 1,
+                    "leds_max": 1,
+                    "leds_min": 1,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Numpad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "active_mode": 2,
+            "colors": [
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960,
+                16776960
+            ],
+            "configuration": null,
+            "description": "ASRock Polychrome USB Device",
+            "display_name": "",
+            "flags": 1,
+            "leds": [
+                {
+                    "name": "RGB LED 1 Header, LED 1"
+                },
+                {
+                    "name": "Addressable Header 1, LED 1"
+                },
+                {
+                    "name": "Addressable Header 1, LED 2"
+                },
+                {
+                    "name": "Addressable Header 1, LED 3"
+                },
+                {
+                    "name": "Addressable Header 1, LED 4"
+                },
+                {
+                    "name": "Addressable Header 1, LED 5"
+                },
+                {
+                    "name": "Addressable Header 1, LED 6"
+                },
+                {
+                    "name": "Addressable Header 1, LED 7"
+                },
+                {
+                    "name": "Addressable Header 1, LED 8"
+                },
+                {
+                    "name": "Addressable Header 1, LED 9"
+                },
+                {
+                    "name": "Addressable Header 1, LED 10"
+                },
+                {
+                    "name": "Addressable Header 1, LED 11"
+                },
+                {
+                    "name": "Addressable Header 1, LED 12"
+                },
+                {
+                    "name": "Addressable Header 1, LED 13"
+                },
+                {
+                    "name": "Addressable Header 1, LED 14"
+                },
+                {
+                    "name": "Addressable Header 1, LED 15"
+                },
+                {
+                    "name": "Addressable Header 1, LED 16"
+                },
+                {
+                    "name": "Addressable Header 1, LED 17"
+                },
+                {
+                    "name": "Addressable Header 1, LED 18"
+                },
+                {
+                    "name": "Addressable Header 1, LED 19"
+                },
+                {
+                    "name": "Addressable Header 1, LED 20"
+                },
+                {
+                    "name": "Addressable Header 1, LED 21"
+                },
+                {
+                    "name": "Addressable Header 1, LED 22"
+                },
+                {
+                    "name": "Addressable Header 1, LED 23"
+                },
+                {
+                    "name": "Addressable Header 1, LED 24"
+                },
+                {
+                    "name": "Addressable Header 1, LED 25"
+                },
+                {
+                    "name": "Addressable Header 1, LED 26"
+                },
+                {
+                    "name": "Addressable Header 1, LED 27"
+                },
+                {
+                    "name": "Addressable Header 1, LED 28"
+                },
+                {
+                    "name": "Addressable Header 1, LED 29"
+                },
+                {
+                    "name": "Addressable Header 1, LED 30"
+                },
+                {
+                    "name": "Addressable Header 1, LED 31"
+                },
+                {
+                    "name": "Addressable Header 1, LED 32"
+                },
+                {
+                    "name": "Addressable Header 1, LED 33"
+                },
+                {
+                    "name": "Addressable Header 1, LED 34"
+                },
+                {
+                    "name": "Addressable Header 1, LED 35"
+                },
+                {
+                    "name": "Addressable Header 1, LED 36"
+                },
+                {
+                    "name": "Addressable Header 1, LED 37"
+                },
+                {
+                    "name": "Addressable Header 1, LED 38"
+                },
+                {
+                    "name": "Addressable Header 1, LED 39"
+                },
+                {
+                    "name": "Addressable Header 1, LED 40"
+                },
+                {
+                    "name": "Addressable Header 1, LED 41"
+                },
+                {
+                    "name": "Addressable Header 1, LED 42"
+                },
+                {
+                    "name": "Addressable Header 1, LED 43"
+                },
+                {
+                    "name": "Addressable Header 1, LED 44"
+                },
+                {
+                    "name": "Addressable Header 1, LED 45"
+                },
+                {
+                    "name": "Addressable Header 1, LED 46"
+                },
+                {
+                    "name": "Addressable Header 1, LED 47"
+                },
+                {
+                    "name": "Addressable Header 1, LED 48"
+                },
+                {
+                    "name": "Addressable Header 1, LED 49"
+                },
+                {
+                    "name": "Addressable Header 1, LED 50"
+                },
+                {
+                    "name": "Addressable Header 1, LED 51"
+                },
+                {
+                    "name": "Addressable Header 1, LED 52"
+                },
+                {
+                    "name": "Addressable Header 1, LED 53"
+                },
+                {
+                    "name": "Addressable Header 1, LED 54"
+                },
+                {
+                    "name": "Addressable Header 1, LED 55"
+                },
+                {
+                    "name": "Addressable Header 1, LED 56"
+                },
+                {
+                    "name": "Addressable Header 1, LED 57"
+                },
+                {
+                    "name": "Addressable Header 1, LED 58"
+                },
+                {
+                    "name": "Addressable Header 1, LED 59"
+                },
+                {
+                    "name": "Addressable Header 1, LED 60"
+                },
+                {
+                    "name": "Addressable Header 1, LED 61"
+                },
+                {
+                    "name": "Addressable Header 1, LED 62"
+                },
+                {
+                    "name": "Addressable Header 1, LED 63"
+                },
+                {
+                    "name": "Addressable Header 1, LED 64"
+                },
+                {
+                    "name": "Addressable Header 1, LED 65"
+                },
+                {
+                    "name": "Addressable Header 1, LED 66"
+                },
+                {
+                    "name": "Addressable Header 1, LED 67"
+                },
+                {
+                    "name": "Addressable Header 1, LED 68"
+                },
+                {
+                    "name": "Addressable Header 1, LED 69"
+                },
+                {
+                    "name": "Addressable Header 1, LED 70"
+                },
+                {
+                    "name": "Addressable Header 1, LED 71"
+                },
+                {
+                    "name": "Addressable Header 1, LED 72"
+                },
+                {
+                    "name": "Addressable Header 1, LED 73"
+                },
+                {
+                    "name": "Addressable Header 1, LED 74"
+                },
+                {
+                    "name": "Addressable Header 1, LED 75"
+                },
+                {
+                    "name": "Addressable Header 1, LED 76"
+                },
+                {
+                    "name": "Addressable Header 1, LED 77"
+                },
+                {
+                    "name": "Addressable Header 1, LED 78"
+                },
+                {
+                    "name": "Addressable Header 1, LED 79"
+                },
+                {
+                    "name": "Addressable Header 1, LED 80"
+                },
+                {
+                    "name": "Addressable Header 2, LED 1"
+                },
+                {
+                    "name": "Addressable Header 2, LED 2"
+                },
+                {
+                    "name": "Addressable Header 2, LED 3"
+                },
+                {
+                    "name": "Addressable Header 2, LED 4"
+                },
+                {
+                    "name": "Addressable Header 2, LED 5"
+                },
+                {
+                    "name": "Addressable Header 2, LED 6"
+                },
+                {
+                    "name": "Addressable Header 2, LED 7"
+                },
+                {
+                    "name": "Addressable Header 2, LED 8"
+                },
+                {
+                    "name": "Addressable Header 2, LED 9"
+                },
+                {
+                    "name": "Addressable Header 2, LED 10"
+                },
+                {
+                    "name": "Addressable Header 2, LED 11"
+                },
+                {
+                    "name": "Addressable Header 2, LED 12"
+                },
+                {
+                    "name": "Addressable Header 2, LED 13"
+                },
+                {
+                    "name": "Addressable Header 2, LED 14"
+                },
+                {
+                    "name": "Addressable Header 2, LED 15"
+                },
+                {
+                    "name": "Addressable Header 2, LED 16"
+                },
+                {
+                    "name": "Addressable Header 2, LED 17"
+                },
+                {
+                    "name": "Addressable Header 2, LED 18"
+                },
+                {
+                    "name": "Addressable Header 2, LED 19"
+                },
+                {
+                    "name": "Addressable Header 2, LED 20"
+                },
+                {
+                    "name": "Addressable Header 2, LED 21"
+                },
+                {
+                    "name": "Addressable Header 2, LED 22"
+                },
+                {
+                    "name": "Addressable Header 2, LED 23"
+                },
+                {
+                    "name": "Addressable Header 2, LED 24"
+                },
+                {
+                    "name": "Addressable Header 2, LED 25"
+                },
+                {
+                    "name": "Addressable Header 2, LED 26"
+                },
+                {
+                    "name": "Addressable Header 2, LED 27"
+                },
+                {
+                    "name": "Addressable Header 2, LED 28"
+                },
+                {
+                    "name": "Addressable Header 2, LED 29"
+                },
+                {
+                    "name": "Addressable Header 2, LED 30"
+                },
+                {
+                    "name": "Addressable Header 2, LED 31"
+                },
+                {
+                    "name": "Addressable Header 2, LED 32"
+                },
+                {
+                    "name": "Addressable Header 2, LED 33"
+                },
+                {
+                    "name": "Addressable Header 2, LED 34"
+                },
+                {
+                    "name": "Addressable Header 2, LED 35"
+                },
+                {
+                    "name": "Addressable Header 2, LED 36"
+                },
+                {
+                    "name": "Addressable Header 2, LED 37"
+                },
+                {
+                    "name": "Addressable Header 2, LED 38"
+                },
+                {
+                    "name": "Addressable Header 2, LED 39"
+                },
+                {
+                    "name": "Addressable Header 2, LED 40"
+                },
+                {
+                    "name": "Addressable Header 2, LED 41"
+                },
+                {
+                    "name": "Addressable Header 2, LED 42"
+                },
+                {
+                    "name": "Addressable Header 2, LED 43"
+                },
+                {
+                    "name": "Addressable Header 2, LED 44"
+                },
+                {
+                    "name": "Addressable Header 2, LED 45"
+                },
+                {
+                    "name": "Addressable Header 2, LED 46"
+                },
+                {
+                    "name": "Addressable Header 2, LED 47"
+                },
+                {
+                    "name": "Addressable Header 2, LED 48"
+                },
+                {
+                    "name": "Addressable Header 2, LED 49"
+                },
+                {
+                    "name": "Addressable Header 2, LED 50"
+                },
+                {
+                    "name": "Addressable Header 2, LED 51"
+                },
+                {
+                    "name": "Addressable Header 2, LED 52"
+                },
+                {
+                    "name": "Addressable Header 2, LED 53"
+                },
+                {
+                    "name": "Addressable Header 2, LED 54"
+                },
+                {
+                    "name": "Addressable Header 2, LED 55"
+                },
+                {
+                    "name": "Addressable Header 2, LED 56"
+                },
+                {
+                    "name": "Addressable Header 2, LED 57"
+                },
+                {
+                    "name": "Addressable Header 2, LED 58"
+                },
+                {
+                    "name": "Addressable Header 2, LED 59"
+                },
+                {
+                    "name": "Addressable Header 2, LED 60"
+                },
+                {
+                    "name": "Addressable Header 2, LED 61"
+                },
+                {
+                    "name": "Addressable Header 2, LED 62"
+                },
+                {
+                    "name": "Addressable Header 2, LED 63"
+                },
+                {
+                    "name": "Addressable Header 2, LED 64"
+                },
+                {
+                    "name": "Addressable Header 2, LED 65"
+                },
+                {
+                    "name": "Addressable Header 2, LED 66"
+                },
+                {
+                    "name": "Addressable Header 2, LED 67"
+                },
+                {
+                    "name": "Addressable Header 2, LED 68"
+                },
+                {
+                    "name": "Addressable Header 2, LED 69"
+                },
+                {
+                    "name": "Addressable Header 2, LED 70"
+                },
+                {
+                    "name": "Addressable Header 2, LED 71"
+                },
+                {
+                    "name": "Addressable Header 2, LED 72"
+                },
+                {
+                    "name": "Addressable Header 2, LED 73"
+                },
+                {
+                    "name": "Addressable Header 2, LED 74"
+                },
+                {
+                    "name": "Addressable Header 2, LED 75"
+                },
+                {
+                    "name": "Addressable Header 2, LED 76"
+                },
+                {
+                    "name": "Addressable Header 2, LED 77"
+                },
+                {
+                    "name": "Addressable Header 2, LED 78"
+                },
+                {
+                    "name": "Addressable Header 2, LED 79"
+                },
+                {
+                    "name": "Addressable Header 2, LED 80"
+                },
+                {
+                    "name": "PCH, LED 1"
+                },
+                {
+                    "name": "PCH, LED 2"
+                },
+                {
+                    "name": "PCH, LED 3"
+                },
+                {
+                    "name": "PCH, LED 4"
+                },
+                {
+                    "name": "PCH, LED 5"
+                },
+                {
+                    "name": "PCH, LED 6"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 1"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 2"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 3"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 4"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 5"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 6"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 7"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 8"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 9"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 10"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 11"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 12"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 13"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 14"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 15"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 16"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 17"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 18"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 19"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 20"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 21"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 22"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 23"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 24"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 25"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 26"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 27"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 28"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 29"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 30"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 31"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 32"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 33"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 34"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 35"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 36"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 37"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 38"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 39"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 40"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 41"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 42"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 43"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 44"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 45"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 46"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 47"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 48"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 49"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 50"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 51"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 52"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 53"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 54"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 55"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 56"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 57"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 58"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 59"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 60"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 61"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 62"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 63"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 64"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 65"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 66"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 67"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 68"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 69"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 70"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 71"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 72"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 73"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 74"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 75"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 76"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 77"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 78"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 79"
+                },
+                {
+                    "name": "Addressable Header 3/Audio, LED 80"
+                }
+            ],
+            "location": "HID: /dev/hidraw0",
+            "modes": [
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 0,
+                    "name": "Off",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 32,
+                    "name": "Static",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 33,
+                    "name": "Breathing",
+                    "speed": 232,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 33,
+                    "name": "Strobe",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Spectrum Cycle",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Random",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 16,
+                    "name": "Music",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Wave",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Spring",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Stack",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Cram",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Scan",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 0,
+                    "name": "Neon",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Water",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 0,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 1,
+                    "name": "Rainbow",
+                    "speed": 224,
+                    "speed_max": 0,
+                    "speed_min": 255
+                },
+                {
+                    "brightness": 0,
+                    "brightness_max": 0,
+                    "brightness_min": 0,
+                    "color_mode": 1,
+                    "colors_max": 0,
+                    "colors_min": 0,
+                    "direction": 0,
+                    "flags": 32,
+                    "name": "Direct",
+                    "speed": 0,
+                    "speed_max": 0,
+                    "speed_min": 0
+                }
+            ],
+            "name": "ASRock X870 Steel Legend WiFi",
+            "serial": "",
+            "type": 0,
+            "vendor": "ASRock",
+            "version": "",
+            "zones": [
+                {
+                    "display_name": "",
+                    "flags": 4096,
+                    "leds_count": 1,
+                    "leds_max": 1,
+                    "leds_min": 1,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "RGB LED 1 Header",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 4158,
+                    "leds_count": 80,
+                    "leds_max": 100,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Addressable Header 1",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 4158,
+                    "leds_count": 80,
+                    "leds_max": 100,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Addressable Header 2",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 4096,
+                    "leds_count": 6,
+                    "leds_max": 6,
+                    "leds_min": 6,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "PCH",
+                    "type": 1
+                },
+                {
+                    "display_name": "",
+                    "flags": 4158,
+                    "leds_count": 80,
+                    "leds_max": 100,
+                    "leds_min": 0,
+                    "matrix_map": {
+                        "height": 0,
+                        "width": 0
+                    },
+                    "name": "Addressable Header 3/Audio",
+                    "type": 1
+                }
+            ]
+        }
+    ],
+    "profile_name": "whiteout",
+    "profile_version": 6
+}

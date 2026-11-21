@@ -1,0 +1,79 @@
+{
+  "dankDesktopWeather": {
+    "enabled": true
+  },
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": "47b0ebe85f7f495ba923b4a831c161a2",
+    "deviceImageMap": "{\"47b0ebe85f7f495ba923b4a831c161a2\":\"file:///home/haiduk/Pictures/KDE Connect Devices/spacewar.png\"}",
+    "deviceRecentImagesPathMap": "{}"
+  },
+  "dankGifSearch": {
+    "enabled": true,
+    "preferredFormat": "gif",
+    "pasteUrlOnly": true
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "="
+  },
+  "dankLauncherKeys": {
+    "enabled": true
+  },
+  "amdGpuMonitor": {
+    "enabled": true,
+    "variants": [],
+    "popoutStyle": "default"
+  },
+  "discordVoice": {
+    "enabled": true
+  },
+  "wallpaperBing": {
+    "enabled": true,
+    "enableDailyRefresh": true
+  },
+  "mpvpaperWallpaper": {
+    "enabled": true,
+    "monitorPaths": {
+      "HDMI-A-2": "/home/haiduk/Videos/Vertical/Skyscraper.mp4",
+      "DP-1": "/home/haiduk/Videos/Vertical/Rose_Glass.mp4"
+    },
+    "generateStaticWallpaper": false,
+    "panscanEnabled": true,
+    "loopPlaylist": true,
+    "customMpvOptions": "",
+    "allMonitors": false
+  },
+  "emojiLauncher": {
+    "enabled": true,
+    "recentEmojis": "💯,☕,🇷🇴,🤐,✅",
+    "pasteOnSelect": false
+  },
+  "wallpaperCarousel": {
+    "enabled": true,
+    "overlayOpacity": 79
+  },
+  "linuxWallpaperEngine": {
+    "enabled": false,
+    "monitorPlaylists": {
+      "DP-1": [
+        "3589454154"
+      ]
+    },
+    "monitorScenes": {
+      "DP-1": "3589454154"
+    },
+    "sceneSettings": {
+      "3589454154": {
+        "fps": 27
+      }
+    },
+    "playlistIntervalMinutes": 6
+  },
+  "dankStickerSearch": {
+    "enabled": true
+  },
+  "mediaPlayer": {
+    "enabled": true
+  }
+}

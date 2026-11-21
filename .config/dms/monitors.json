@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "configurations": [
+    {
+      "id": "profile_1783631492222_2jtgtiz",
+      "name": "Foxglove",
+      "outputs": {
+        "DP-1": {
+          "mode": "1920x1080@120.000",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "scale": 1,
+          "transform": "Normal",
+          "vrr": true,
+          "disabled": false,
+          "niri": {
+            "focusAtStartup": true,
+            "hotCorners": null,
+            "layout": {
+              "alwaysCenterSingleColumn": true
+            }
+          }
+        },
+        "HDMI-A-2": {
+          "mode": "1920x515@59.997",
+          "position": {
+            "x": 1920,
+            "y": 1080
+          },
+          "scale": 1,
+          "transform": "90",
+          "vrr": false,
+          "disabled": false,
+          "niri": {
+            "hotCorners": {
+              "off": true
+            },
+            "layout": null
+          }
+        }
+      }
+    },
+    {
+      "id": "auto_640dc5ec",
+      "name": "",
+      "outputs": {
+        "DP-1": {
+          "mode": "1920x1080@120.000",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "scale": 1,
+          "transform": "Normal",
+          "vrr": true,
+          "disabled": false,
+          "niri": {}
+        },
+        "HDMI-A-2": {
+          "mode": "1920x515@59.997",
+          "position": {
+            "x": 1920,
+            "y": 1080
+          },
+          "scale": 1,
+          "transform": "90",
+          "vrr": false,
+          "disabled": false,
+          "niri": {}
+        }
+      }
+    }
+  ]
+}

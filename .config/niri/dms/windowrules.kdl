@@ -1,0 +1,107 @@
+// DMS Window Rules - Managed by Dux Modular Shell
+// Do not edit manually - changes may be overwritten
+
+// @id=dms_rule_0 @name=
+window-rule {
+    match app-id="Conky"
+    open-maximized-to-edges true
+    open-on-output "HDMI-A-2"
+}
+
+// @id=dms_rule_1 @name=Gnome
+window-rule {
+    match app-id="^org\\.gnome\\."
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+
+// @id=dms_rule_2 @name=Quickshell
+window-rule {
+    match app-id="org.quickshell$"
+    open-floating true
+}
+
+// @id=dms_rule_3 @name=Terminal
+window-rule {
+    match app-id="com.mitchellh.ghostty"
+    default-column-width { proportion 0.5; }
+}
+
+// @id=dms_rule_4 @name=Terminal
+window-rule {
+    match app-id="com.mitchellh.ghostty"
+}
+
+// @id=dms_rule_5 @name=Steam
+window-rule {
+    match app-id="^steam$" title="(?i)notificationtoast" is-floating=true
+    open-maximized true
+}
+
+// @id=dms_rule_6 @name=Inactive Opacity
+window-rule {
+    match is-active=false
+    opacity 0.95
+}
+
+// @id=dms_rule_7 @name=PiP
+window-rule {
+    match app-id="zen" title="^Picture-in-Picture$"
+    open-floating true
+}
+
+// @id=dms_rule_9 @name=Steam
+window-rule {
+    match app-id="steam"
+    open-maximized true
+}
+
+// @id=dms_rule_10 @name=Steam Friends
+window-rule {
+    match title="Friends List"
+    default-column-width { fixed 424; }
+}
+
+// @id=wr_1783631313384948269 @name=Thunar Rename
+window-rule {
+    match app-id="^thunar$" title="^Rename \"[\\s\\S]*\"$"
+    open-floating true
+    open-focused true
+}
+
+// @id=wr_1788287771420492609 @name=Ubisoft Connect
+window-rule {
+    match app-id="^steam_app_33230$"
+    open-on-workspace "tray"
+}
+
+// @id=wr_1788966421971510380 @name=Media Downloader
+window-rule {
+    match app-id="^media-downloader$"
+    open-floating false
+}
+
+// @id=dms-floating-windows @name=DMS Floating Windows
+window-rule {
+    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
+    open-floating true
+}
+
+// @id=wr_1789242196062549226 @name=Zen Browser
+window-rule {
+    match app-id="^zen$"
+    open-maximized true
+}
+
+// @id=wr_1789761359016614576 @name=Steam Notifications
+window-rule {
+    match app-id="^steam$" title="(?i)^notification"
+    open-floating true
+    default-floating-position x=16 y=16 relative-to="top-right"
+}
+
+// @id=dms-window-opaque @name=DMS Window Opaque
+window-rule {
+    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
+    opacity 1.00
+}

@@ -1,0 +1,28 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "calculator": {
+      "repo": "https://github.com/rochacbruno/DankCalculator",
+      "commit": "a27b80ad8c3dd42da11af83461674fb362817515"
+    },
+    "dankKDEConnect": {
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankKDEConnect",
+      "commit": "96201bd52b148b311c74eafca3988cc4d0cd0d8f"
+    },
+    "dankLauncherKeys": {
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankLauncherKeys",
+      "commit": "96201bd52b148b311c74eafca3988cc4d0cd0d8f"
+    },
+    "dankStickerSearch": {
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankStickerSearch",
+      "commit": "96201bd52b148b311c74eafca3988cc4d0cd0d8f"
+    },
+    "emojiLauncher": {
+      "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
+      "commit": "fc385900e6df292f0a7e5bdda4e3e37169897d7c"
+    }
+  }
+}

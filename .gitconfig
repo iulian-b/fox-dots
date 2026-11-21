@@ -1,0 +1,11 @@
+[user]
+	name = haiduk
+	email = 22578353+iulian-b@users.noreply.github.com
+[safe]
+	directory = /srv/http/ISOCertificazioni
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

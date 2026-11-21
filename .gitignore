@@ -1,0 +1,15 @@
+# secrets — never commit
+.config/spotify/
+.config/gh/hosts.yml
+.config/obs-studio/basic/profiles/*/service.json
+.config/kdeconnect/
+
+# state / junk
+*.log
+*.bak
+*.backup*
+*~
+.config/micro/buffers/
+.config/micro/backups/
+.config/dms/plugins/.repos/
+.config/tmux/plugins/

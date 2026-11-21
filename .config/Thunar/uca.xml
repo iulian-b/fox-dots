@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1758360384756943-1</unique-id>
+	<command>ghostty --working-directory=%f</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>backup</icon>
+	<name>Backup</name>
+	<submenu></submenu>
+	<unique-id>1787074141954362-1</unique-id>
+	<command>mv %n %n.bkp</command>
+	<description>Append &apos;.bkp&apos; to file</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>gtk-convert</icon>
+	<name>Convert -&gt; JPEG</name>
+	<submenu></submenu>
+	<unique-id>1787074584795817-1</unique-id>
+	<command>convert %f -quality 100 %f.jpg</command>
+	<description>Convert image to .jpg</description>
+	<range>*</range>
+	<patterns>*.png</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>gtk-convert</icon>
+	<name>Convert -&gt; PNG</name>
+	<submenu></submenu>
+	<unique-id>1787074629647450-2</unique-id>
+	<command>convert %f -quality 100 %f.png</command>
+	<description>Converto image to .png</description>
+	<range>*</range>
+	<patterns>*.jpg</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>kr_comparedirs</icon>
+	<name>Compare</name>
+	<submenu></submenu>
+	<unique-id>1787074739278419-3</unique-id>
+	<command>meld %F</command>
+	<description>Compare files</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>
