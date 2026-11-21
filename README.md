@@ -1,6 +1,22 @@
-# fox-dots
+<a id="readme-top"></a>
 
-Personal dotfiles for my CachyOS desktop: **niri** + **DankMaterialShell (dms)**.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/iulian-b/fox-dots">
+    <img src="assets/logo.png" alt="Logo" width="640">
+  </a>
+
+  <h3 align="center">ƒøx-dots</h3>
+
+  <p align="center">
+    Personal dotfiles for my CachyOS desktop: <b>niri</b> + <b>DankMaterialShell (dms)</b>
+  </p>
+</div>
+
+<br />
+
+## Install
 
 Layout mirrors `$HOME`, so it works with GNU Stow:
 
