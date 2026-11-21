@@ -15,7 +15,7 @@ stow -t ~ .
 |---|---|
 | Desktop | `niri` (+ `niri/dms/*.kdl` includes), `dms`, `dsearch`, `dgop`, `dankcal`, `environment.d`, `autostart` |
 | Theming | `gtk-3.0`, `gtk-4.0`, `qt6ct`, `fontconfig`, `.gtkrc-2.0`, `.Xresources` |
-| Shell / terminal | `fish`, `starship.toml`, `ghostty`, `kitty`, `tmux`, `fastfetch`, `btop`, `.bashrc`, `.profile` |
+| Shell / terminal | `fish`, `ghostty`, `tmux`, `fastfetch`, `btop`, `.bashrc`, `.profile` |
 | Editors | `nvim` (LazyVim), `micro`, `zed`, `VSCodium/User`, `sublime-text/Packages/User` |
 | Media | `spicetify` (Spotify), `cava`, `mpd`, `ncmpcpp`, `mpv`, `qimgv` |
 | Apps | `vesktop`, `obs-studio`, `OpenRGB`, `Thunar`, `clipcat`, `psd`, `shelly`, `MangoHud`, `dunst`, `paru`, `gh` |
